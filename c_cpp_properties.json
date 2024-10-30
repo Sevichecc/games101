@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/include/eigen3"
+            ]
+        }
+    ],
+    "version": 4
+} 
