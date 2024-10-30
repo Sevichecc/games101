@@ -1,3 +1,38 @@
-# macOS system files
-.DS_Store
 .idea
+
+# Build directories
+build/
+out/
+cmake-build-*/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Compiled files
+*.o
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+Makefile
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Dependencies
+/vendor/
+/lib/
+
+# Debug files
+*.dSYM/
